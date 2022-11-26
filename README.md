@@ -34,7 +34,7 @@ cd pwg-v1
 python --version
 ```
 
-5. ##### Start a local dev server at `http://localhost:8080`:
+5. ##### Run Script:
 
 ```
 python pwg-v1
