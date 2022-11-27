@@ -35,9 +35,8 @@ if length.isdigit():
         # Create secure alphanumeric password.
         password = ''.join(secrets.choice(alphabet) for i in range(length))
 
-        # Display the password to the user and ask them to clear the screen.
+        # Display the password to the user.
         print("PWG - Thank you for using the Password Generator. Please feel free to use it however you see fit.")
-        print("PWG - After recording your new password, please use the command 'clear' to erase your password.")
         print("PWG - PASSWORD: " + password)
 
     else:
