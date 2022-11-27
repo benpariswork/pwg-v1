@@ -27,7 +27,7 @@ if length.isdigit():
     length = int(length)
 
     # Test length to see if it is within the defined range (1-99)
-    if length in range(1, 99):
+    if length in range(1, 100):
 
         # Define 'alphabet' with letters and numbers making it alphanumeric. 
         alphabet = string.ascii_letters + string.digits
